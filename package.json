@@ -1,0 +1,19 @@
+{
+  "name": "hook-book",
+  "version": "0.0.1",
+  "description": "A collection of custom React Hooks",
+  "main": "./hooks",
+  "author": "Tony Dinh",
+  "license": "ISC",
+  "scripts": {},
+  "homepage": "https://github.com/tony-dinh/hook-book#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-dinh/hook-book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tony-dinh/hook-book/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
