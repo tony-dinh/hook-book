@@ -1,5 +1,5 @@
 # useDrag()
-A hook to make dragging elements easier. ([Try it out](https://codesandbox.io/s/rr28389q1m)).
+A hook to make dragging elements easier.
 
 ```js
 function App() {
@@ -16,3 +16,5 @@ function App() {
   return <DragTarget style={style} ref={dragElement} />
 }
 ```
+
+[![Edit useDrag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/rr28389q1m?fontsize=14)

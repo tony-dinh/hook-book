@@ -1,5 +1,5 @@
 # useKeyPress()
-A hook to detect when the specific keys are pressed ([Try it out](https://codesandbox.io/s/8x2068664j)).
+A hook to detect when the specific keys are pressed.
 
 ```js
 function App() {
@@ -15,3 +15,5 @@ function App() {
   return JSON.stringify({ keysPressed }, null, 2)
 }
 ```
+
+[![Edit useKeyPress](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8x2068664j?fontsize=14)

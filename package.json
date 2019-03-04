@@ -1,11 +1,14 @@
 {
   "name": "hook-book",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "A collection of custom React Hooks",
-  "main": "./hooks",
+  "main": "dist/",
   "author": "Tony Dinh",
   "license": "ISC",
-  "scripts": {},
+  "scripts": {
+    "build": "babel ./recipes --out-dir ./dist -s inline",
+    "prepublishOnly": "npm run build"
+  },
   "homepage": "https://github.com/tony-dinh/hook-book#readme",
   "repository": {
     "type": "git",
@@ -14,6 +17,16 @@
   "bugs": {
     "url": "https://github.com/tony-dinh/hook-book/issues"
   },
+  "files": ["dist/*"],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.4"
+  }
 }
