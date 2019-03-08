@@ -1,12 +1,12 @@
 {
   "name": "hook-book",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.5",
   "description": "A collection of custom React Hooks",
-  "main": "dist/",
+  "main": "./dist/recipes",
   "author": "Tony Dinh",
   "license": "ISC",
   "scripts": {
-    "build": "babel ./recipes --out-dir ./dist -s inline",
+    "build": "./scripts/build.sh",
     "prepublishOnly": "npm run build"
   },
   "homepage": "https://github.com/tony-dinh/hook-book#readme",
