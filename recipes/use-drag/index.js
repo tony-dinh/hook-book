@@ -1,6 +1,6 @@
 import {useEffect, useReducer} from 'react'
 import reducer, {initialState} from './reducer'
-import {bulkAddEventListener, bulkRemoveEventListener} from '../../utils'
+import {bulkAddEventListener, bulkRemoveEventListener} from '../utils'
 
 const DRAG_START_EVENTS = ['mousedown', 'touchstart']
 const DRAG_EVENTS = ['mousemove', 'touchmove']
@@ -26,7 +26,6 @@ export default function useDrag(ref) {
             bulkAddEventListener(window, DRAG_EVENTS, onDrag)
             bulkAddEventListener(window, DRAG_END_EVENTS, onDragEnd)
             window.addEventListener('blur', onDragEnd)
-
         } else {
             bulkRemoveEventListener(window, DRAG_EVENTS, onDrag)
             bulkRemoveEventListener(window, DRAG_END_EVENTS, onDragEnd)

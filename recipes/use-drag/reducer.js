@@ -1,4 +1,4 @@
-import {getPointerPosition} from '../../utils'
+import {getPointerPosition} from '../utils'
 
 export const initialState = {
     isDragging: false,

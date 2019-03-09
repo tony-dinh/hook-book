@@ -3,14 +3,14 @@ A hook to detect when the specific keys are pressed.
 
 ```js
 function App() {
-    const {Control, a} = useKeyPress()
+    const {Control, a, A} = useKeyPress()
 
     useEffect(() => {
-        if (Control && a) {
+        if (Control && (a || A)) {
             window.alert('Surprise!')
             return
         }
-    }, [Control, a])
+    }, [Control, a, A])
 
   return JSON.stringify({ keysPressed }, null, 2)
 }

@@ -11,7 +11,7 @@ function App() {
         position: 'absolute',
         transform: `translate3d(${x - startX}px, ${y - startY}px, 0)`
       }
-    : null
+    : { transition: 'transform 250ms' }
 
   return <DragTarget style={style} ref={dragElement} />
 }
