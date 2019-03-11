@@ -1,4 +1,4 @@
-# useThrottle()
+# useThrottle(value, delay)
 A hook for throttling the updates of a value.
 
 ```js

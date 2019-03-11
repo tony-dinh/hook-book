@@ -1,3 +1,5 @@
+export const noop = () => {}
+
 export const bulkAddEventListener = (object, events = [], callback) => {
     if (!object) {
         return

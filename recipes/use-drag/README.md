@@ -1,4 +1,4 @@
-# useDrag()
+# useDrag(ref)
 A hook to make dragging elements easier.
 
 ```js
