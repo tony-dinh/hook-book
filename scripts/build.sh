@@ -13,5 +13,5 @@ echo "Removed '/dist'"
 echo ""
 echo "=== Making new recipes 📖 ..."
 echo ""
-babel ./recipes --out-dir ./dist -s inline
+babel --minified ./recipes --out-dir ./dist -s inline
 cp package.json ./dist
