@@ -22,7 +22,7 @@ export default function useKeyPress() {
             document.removeEventListener('keyup', onKeyUp)
             window.removeEventListener('blur', onBlur)
         }
-    })
+    }, [])
 
     return keyPressed
 }

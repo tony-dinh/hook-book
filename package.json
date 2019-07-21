@@ -1,6 +1,6 @@
 {
   "name": "hook-book",
-  "version": "0.0.1-beta.16",
+  "version": "0.0.1-beta.17",
   "description": "A collection of custom React Hooks",
   "main": "index.js",
   "author": "Tony Dinh",
