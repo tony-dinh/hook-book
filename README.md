@@ -6,10 +6,10 @@
 A collection of [React Hook](https://reactjs.org/docs/hooks-intro.html) recipes.
 
 ## Recipes
-| Recipe      | Description                                                                   |
-|-------------|-------------------------------------------------------------------------------|
+| Recipe                                | Description                                                                   |
+|---------------------------------------|-------------------------------------------------------------------------------|
 | [useDebounce](./recipes/use-debounce) | A hook for debouncing the updates of a value, only using the trailing update. |
-| [useDrag](./recipes/use-drag)     | A hook to make dragging elements easier.                                      |
+| [useDrag](./recipes/use-drag)         | A hook to make dragging elements easier.                                      |
 | [useKeypress](./recipes/use-keypress) | A hook to detect when the specific keys are pressed.                          |
 | [useThrottle](./recipes/use-throttle) | A hook for throttling the updates of a value.
 
