@@ -14,5 +14,5 @@ echo ""
 echo "=== Making new recipes 📖 ..."
 echo ""
 babel --minified ./recipes --out-dir ./dist -s inline
-cp package.json ./dist
 cp README.md ./dist
+cp package.json ./dist
