@@ -8,5 +8,5 @@ echo ""
 echo "=== Delivering 🚛..."
 echo ""
 pushd dist > /dev/null # Silence output
-npm publish
+npm publish --access public
 popd > /dev/null # Silence output

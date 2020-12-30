@@ -1,6 +1,6 @@
 {
   "name": "hook-book",
-  "version": "0.0.1-beta.20",
+  "version": "0.0.1-beta.21",
   "description": "A collection of custom React Hooks",
   "keywords": [
     "react",
@@ -21,17 +21,19 @@
   "bugs": {
     "url": "https://github.com/tony-dinh/hook-book/issues"
   },
-  "files": ["*"],
+  "files": [
+    "*"
+  ],
   "peerDependencies": {
     "react": "^16.8.0"
   },
   "dependencies": {
-    "react": "^16.8.4"
+    "react": "^17.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
   }
 }
